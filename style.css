@@ -413,6 +413,16 @@ ol {
 }
 
 @media (max-width: 860px) {
+  body {
+    padding-top: 0;
+  }
+
+  .topbar {
+    position: sticky;
+    left: auto;
+    right: auto;
+  }
+
   .page {
     grid-template-columns: 1fr;
     row-gap: 18px;
@@ -436,5 +446,48 @@ ol {
 
   .timeline-date {
     width: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .topbar-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 10px 12px;
+  }
+
+  .brand {
+    gap: 12px;
+    min-width: 0;
+  }
+
+  .brand-name {
+    font-size: 22px;
+  }
+
+  .brand-logo {
+    height: 34px;
+  }
+
+  .nav {
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 8px;
+    justify-content: flex-start;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav a {
+    white-space: nowrap;
+    font-size: 13px;
+    padding: 6px 8px;
   }
 }
