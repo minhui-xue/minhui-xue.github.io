@@ -49,12 +49,19 @@
 
     const includeTitleSet = new Set(includeTitles);
 
+    const excludeTitles = (dataset.excludeTitles || "")
+      .split("|")
+      .map((s) => s.trim().toLowerCase())
+      .filter(Boolean);
+
+    const excludeTitleSet = new Set(excludeTitles);
+
     const venueNeedles = (dataset.venues || "")
       .split(",")
       .map((s) => s.trim().toLowerCase())
       .filter(Boolean);
 
-    if (!venueNeedles.length && !includeTitleSet.size) return filtered;
+    if (!venueNeedles.length && !includeTitleSet.size && !excludeTitleSet.size) return filtered;
 
     if (venueNeedles.length || includeTitleSet.size) {
       filtered = filtered.filter((p) => {
@@ -67,9 +74,39 @@
       });
     }
 
+    if (excludeTitleSet.size) {
+      filtered = filtered.filter((p) => !excludeTitleSet.has(String(p.title).toLowerCase()));
+    }
+
     return filtered;
   }
 
+  function venuePriorityRank(venue) {
+    const normalized = String(venue).toLowerCase();
+
+    if (normalized.includes("oakland") || normalized.includes("ieee symposium on security and privacy")) return 0;
+    if (normalized.includes("ccs") || normalized.includes("computer and communications security")) return 1;
+    if (normalized.includes("usenix security")) return 2;
+    if (normalized.includes("ndss") || normalized.includes("network and distributed system security")) return 3;
+    return 4;
+  }
+
+  function sortForGroupedByYear(publications) {
+    return publications
+      .map((publication, index) => ({ publication, index }))
+      .sort((a, b) => {
+        const yearA = Number(a.publication.year);
+        const yearB = Number(b.publication.year);
+        if (yearA !== yearB) return yearB - yearA;
+
+        const rankA = venuePriorityRank(a.publication.venue);
+        const rankB = venuePriorityRank(b.publication.venue);
+        if (rankA !== rankB) return rankA - rankB;
+
+        return a.index - b.index;
+      })
+      .map(({ publication }) => publication);
+  }
 
   function renderIntoList(listEl, publications, limit) {
     const pubs = limit ? publications.slice(0, limit) : publications;
@@ -113,7 +150,8 @@
       const filtered = applyFilters(publications, el.dataset);
 
       if (groupByYear) {
-        const pubs = limit ? filtered.slice(0, limit) : filtered;
+        const sorted = sortForGroupedByYear(filtered);
+        const pubs = limit ? sorted.slice(0, limit) : sorted;
         renderGroupedByYear(el, pubs);
       } else if (el.tagName === "UL" || el.tagName === "OL") {
         renderIntoList(el, filtered, limit);

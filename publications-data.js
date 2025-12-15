@@ -1,6 +1,18 @@
 /* Publications data source-of-truth (edit this file). */
 window.PUBLICATIONS = [
   {
+    "title": "SMASH: Scalable Maliciously Secure Hybrid Multi-party Computation Framework for Privacy-Preserving Large Language Models",
+    "authors": "Yunlv Lv, Rui Zhang, Zhiyuan Zhang, Ziyi Wan, Lanxue Zhang, Minhui Xue, Jiangtao Li, Yanan Cao",
+    "venue": "USENIX Security Symposium",
+    "year": 2026
+  },
+  {
+    "title": "The Prompt Stealing Fallacy: Rethinking Metrics, Attacks, and Defenses",
+    "authors": "Zehang Deng, Haoyang Li, Wanlun Ma, Ruoxi Sun, Derui Wang, Minhui Xue, Haibo Hu, Sheng Wen, Yang Xiang",
+    "venue": "USENIX Security Symposium",
+    "year": 2026
+  },
+  {
     "title": "Continual Learning on CLIP via Incremental Prompt Tuning with Intrinsic Textual Anchors",
     "authors": "Haodong Lu, Xinyu Zhang, Kristen Moore, Minhui Xue, Lina Yao, Anton van den Hengel, Dong Gong",
     "venue": "Transactions on Machine Learning Research (TMLR)",
