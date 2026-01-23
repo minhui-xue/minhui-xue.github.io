@@ -1,6 +1,12 @@
 /* Publications data source-of-truth (edit this file). */
 window.PUBLICATIONS = [
   {
+    "title": "From Pixels to Trajectory: Universal Adversarial Example Detection via Temporal Imprints",
+    "authors": "Yansong Gao, Huaibing Peng, Hua Ma, Zhiyang Dai, Shuo Wang, Hongsheng Hu, Anmin Fu, Minhui Xue",
+    "venue": "IEEE Transactions on Dependable and Secure Computing (TDSC)",
+    "year": 2026
+  },
+  {
     "title": "Unfairness Attack and Unified Provable Defense on AI-powered Internet of Energy",
     "authors": "Hua Ma, Ruoxi Sun, Xin Yuan, Minhui Xue, Yansong Gao, Surya Nepal, Xingliang Yuan, Carsten Rudolph, Ling Liu",
     "venue": "IEEE Transactions on Information Forensics & Security (TIFS)",
