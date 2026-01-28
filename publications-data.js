@@ -1,6 +1,12 @@
 /* Publications data source-of-truth (edit this file). */
 window.PUBLICATIONS = [
   {
+    "title": "ReTrace: Reinforcement Learning-Guided Reconstruction Attacks on Machine Unlearning",
+    "authors": "Mengyao Ma, Shuofeng Liu, Minhui Xue, Surya Nepal, Guangdong Bai",
+    "venue": "International Conference on Learning Representations (ICLR), 2026",
+    "year": 2026
+  },
+  {
     "title": "From Pixels to Trajectory: Universal Adversarial Example Detection via Temporal Imprints",
     "authors": "Yansong Gao, Huaibing Peng, Hua Ma, Zhiyang Dai, Shuo Wang, Hongsheng Hu, Anmin Fu, Minhui Xue",
     "venue": "IEEE Transactions on Dependable and Secure Computing (TDSC)",
