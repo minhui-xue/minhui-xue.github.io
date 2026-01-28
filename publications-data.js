@@ -3,7 +3,7 @@ window.PUBLICATIONS = [
   {
     "title": "ReTrace: Reinforcement Learning-Guided Reconstruction Attacks on Machine Unlearning",
     "authors": "Mengyao Ma, Shuofeng Liu, Minhui Xue, Surya Nepal, Guangdong Bai",
-    "venue": "International Conference on Learning Representations (ICLR), 2026",
+    "venue": "International Conference on Learning Representations (ICLR)",
     "year": 2026
   },
   {
