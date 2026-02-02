@@ -1,6 +1,12 @@
 /* Publications data source-of-truth (edit this file). */
 window.PUBLICATIONS = [
   {
+    "title": "Data Flipping Attack and Defense in Web Edge Caching Systems",
+    "authors": "Mengsha Kou, Xiaoyu Xia, Ibrahim Khalil, Ziqi Wang, Xiuzhen Zhang, Minhui Xue",
+    "venue": "IEEE Transactions on Information Forensics & Security (TIFS)",
+    "year": 2026
+  },
+  {
     "title": "ReTrace: Reinforcement Learning-Guided Reconstruction Attacks on Machine Unlearning",
     "authors": "Mengyao Ma, Shuofeng Liu, Minhui Xue, Surya Nepal, Guangdong Bai",
     "venue": "International Conference on Learning Representations (ICLR)",
