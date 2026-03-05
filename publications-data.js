@@ -1,6 +1,12 @@
 /* Publications data source-of-truth (edit this file). */
 window.PUBLICATIONS = [
   {
+    "title": "Re-Key-Free, Risky-Free: Adaptable Model Usage Control",
+    "authors": "Zihan Wang, Zhongkui Ma, Xinguo Feng, Chuan Yan, Dongge Liu, Ruoxi Sun, Derui Wang, Minhui Xue, Guangdong Bai",
+    "venue": "IEEE European Symposium on Security and Privacy (Euro S&P)",
+    "year": 2026
+  },
+  {
     "title": "Data Flipping Attack and Defense in Web Edge Caching Systems",
     "authors": "Mengsha Kou, Xiaoyu Xia, Ibrahim Khalil, Ziqi Wang, Xiuzhen Zhang, Minhui Xue",
     "venue": "IEEE Transactions on Information Forensics & Security (TIFS)",
