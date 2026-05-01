@@ -1,6 +1,18 @@
 /* Publications data source-of-truth (edit this file). */
 window.PUBLICATIONS = [
   {
+    "title": "Little By Little: Continual Learning via Incremental Mixture of Rank-1 Associative Memory Experts",
+    "authors": "Haodong Lu, Chongyang Zhao, Minhui Xue, Lina Yao, Kristen Moore, Dong Gong",
+    "venue": "International Conference on Machine Learning (ICML)",
+    "year": 2026
+  },
+  {
+    "title": "K-TCDP: A Temporal Correlated DP Mechanism for LoRA Supervised Fine-Tuning",
+    "authors": "Kai Zhang, Wenxiang Lin, Yuxuan Xu, Pei-Wei Tsai, Chaoqun Hong, Xin Yuan, Minhui Xue",
+    "venue": "IEEE Transactions on Information Forensics & Security (TIFS)",
+    "year": 2026
+  },
+  {
     "title": "Re-Key-Free, Risky-Free: Adaptable Model Usage Control",
     "authors": "Zihan Wang, Zhongkui Ma, Xinguo Feng, Chuan Yan, Dongge Liu, Ruoxi Sun, Derui Wang, Minhui Xue, Guangdong Bai",
     "venue": "IEEE European Symposium on Security and Privacy (Euro S&P)",
@@ -240,12 +252,6 @@ window.PUBLICATIONS = [
   {
     "title": "TruVRF: Towards Triple-Granularity Verification on Machine Unlearning",
     "authors": "Chunyi Zhou, Yansong Gao, Anmin Fu, Zhiyang Dai, Kai Chen, Zhi Zhang, Minhui Xue, Yuqing Zhang, Shouling Ji",
-    "venue": "IEEE Transactions on Information Forensics & Security (TIFS)",
-    "year": 2025
-  },
-  {
-    "title": "TruVRF: Towards Triple-Granularity Verification on Machine Unlearning",
-    "authors": "Chunyi Zhou, Yansong Gao, Anmin Fu, Kai Chen, Zhi Zhang, Minhui Xue, Zhiyang Dai, Shouling Ji, Yuqing Zhang",
     "venue": "IEEE Transactions on Information Forensics & Security (TIFS)",
     "year": 2025
   },
