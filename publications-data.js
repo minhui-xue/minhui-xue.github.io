@@ -1,12 +1,6 @@
 /* Publications data source-of-truth (edit this file). */
 window.PUBLICATIONS = [
   {
-    "title": "MERA: A Green Edge Resource Control System with Privacy-Preservation via Mean-field Reinforcement Learning",
-    "authors": "Ziqi Wang, Xiaoyu Xia, Ibrahim Khalil, Feng Liu, Tianxu Lan, Xiaolong Xu, Xun Yi, Minhui Xue, Elisa Bertino",
-    "venue": "IEEE Transactions on Knowledge and Data Engineering (TKDE)",
-    "year": 2026
-  },
-  {
     "title": "Little By Little: Continual Learning via Incremental Mixture of Rank-1 Associative Memory Experts",
     "authors": "Haodong Lu, Chongyang Zhao, Minhui Xue, Lina Yao, Kristen Moore, Dong Gong",
     "venue": "International Conference on Machine Learning (ICML)",
@@ -106,6 +100,12 @@ window.PUBLICATIONS = [
     "title": "Octopus: Vehicle-to-Road Collaborative Perception for Autonomous Driving with Closed-Loop Fusion",
     "authors": "Ruikun Luo, Jiadong Zhao, Peize Su, Jieming Yang, Jing Yang, Yuan Gao, Minhui Xue, Xiaoyu Xia",
     "venue": "The Web Conference (WWW)",
+    "year": 2026
+  },
+  {
+    "title": "MERA: A Green Edge Resource Control System with Privacy-Preservation via Mean-field Reinforcement Learning",
+    "authors": "Ziqi Wang, Xiaoyu Xia, Ibrahim Khalil, Feng Liu, Tianxu Lan, Xiaolong Xu, Xun Yi, Minhui Xue, Elisa Bertino",
+    "venue": "IEEE Transactions on Knowledge and Data Engineering (TKDE)",
     "year": 2026
   },
   {
