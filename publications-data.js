@@ -109,6 +109,12 @@ window.PUBLICATIONS = [
     "year": 2026
   },
   {
+    "title": "SafeSteer: Adaptive Subspace Steering for Efficient Jailbreak Defense in Vision Language Models",
+    "authors": "Xiyu Zeng, Siyuan Liang, Shuchao Pang, Liming Lu, Haotian Zhu, Chuanting Zhang, Enguang Liu, Liang Zhang, Basem Shihada, Minhui Xue",
+    "venue": "IEEE Transactions on Information Forensics & Security (TIFS)",
+    "year": 2026
+  },
+  {
     "title": "Modifier Unlocked: Jailbreaking Text-to-Image Models Through Prompts",
     "authors": "Shuofeng Liu, Mengyao Ma, Minhui Xue, Guangdong Bai",
     "venue": "IEEE Symposium on Security and Privacy (Oakland)",
