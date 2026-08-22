@@ -1,6 +1,18 @@
 /* Publications data source-of-truth (edit this file). */
 window.PUBLICATIONS = [
   {
+    "title": "AI Alignment through a Game-theoretic Lens: A Survey",
+    "authors": "Yanan Cai, Zhongrui Zhao, Zhigang Lu, Ickjai Lee, Wei Emma Zhang, Minhui Xue, Yihong Zhang, Shuchao Pang, Wei Xiang",
+    "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP Main Conference)",
+    "year": 2026
+  },
+  {
+    "title": "Take Only What You Need: Rank Minimization as an Implicit Forgetting Regularizer in Continual Learning",
+    "authors": "Haodong Lu, Chongyang Zhao, Minhui Xue, Lina Yao, Kristen Moore, Dong Gong",
+    "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP Findings)",
+    "year": 2026
+  },
+  {
     "title": "Little By Little: Continual Learning via Incremental Mixture of Rank-1 Associative Memory Experts",
     "authors": "Haodong Lu, Chongyang Zhao, Minhui Xue, Lina Yao, Kristen Moore, Dong Gong",
     "venue": "International Conference on Machine Learning (ICML)",
