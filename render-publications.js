@@ -13,10 +13,8 @@
     const authors = escapeHtml(publication.authors);
     const venue = escapeHtml(publication.venue);
     const year = Number(publication.year);
-    const notesText = publication.notes ? String(publication.notes) : "";
-    const hasNotes = Boolean(notesText);
-    const isAward = hasNotes && notesText.toLowerCase().includes("award");
-    const badge = isAward ? ` <span class="pub-note pub-note-award">${escapeHtml(notesText)}</span>` : "";
+    const notes = [].concat(publication.notes || []).map(String).filter(Boolean);
+    const badge = notes.map((note) => ` <span class="pub-note pub-note-award">${escapeHtml(note)}</span>`).join("");
 
     return (
       `<li>` +

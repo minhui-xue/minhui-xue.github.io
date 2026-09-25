@@ -3,9 +3,9 @@ window.PUBLICATIONS = [
   {
     "title": "Catch-Only-One: Non-Transferable Examples for Model-Specific Authorization",
     "authors": "Zihan Wang, Ethan Ma, Zhongkui Ma, Shuofeng Liu, Akide Liu, Derui Wang, Minhui Xue, Guangdong Bai",
-    "venue": "Conference on Neural Information Processing Systems (NeurIPS) (Oral)",
+    "venue": "Conference on Neural Information Processing Systems (NeurIPS)",
     "year": 2026,
-    "notes": "Best Paper Award Runner-Up (ECCV 2026 LifeGenIP)"
+    "notes": ["NeurIPS Oral", "Best Paper Award Runner-Up (ECCV 2026 LifeGenIP)"]
   },
   {
     "title": "TRACE: Data-Free Text Reconstruction Attacks against Approximate Unlearning in LLMs",
@@ -283,14 +283,14 @@ window.PUBLICATIONS = [
     "authors": "Chaoqi Jia, Longkun Guo, Kewen Liao, Zhigang Lu, Chao Chen, Minhui Xue",
     "venue": "AAAI Conference on Artificial Intelligence (AAAI)",
     "year": 2025,
-    "notes": "Oral"
+    "notes": "AAAI Oral"
   },
   {
     "title": "Cross-Modal Unlearning via Influential Neuron Path Editing in Multimodal Large Language Models",
     "authors": "Kunhao Li, Wenhao Li, Di Wu, Lei Yang, Jun Bai, Ju Jia, Minhui Xue",
     "venue": "AAAI Conference on Artificial Intelligence (AAAI)",
     "year": 2025,
-    "notes": "Oral"
+    "notes": "AAAI Oral"
   },
   {
     "title": "Reconstruction of Differentially Private Text Sanitization via Large Language Models",
@@ -671,7 +671,7 @@ window.PUBLICATIONS = [
     "authors": "Zirui Peng, Shaofeng Li, Guoxing Chen, Cheng Zhang, Haojin Zhu, Minhui Xue",
     "venue": "Conference on Computer Vision and Pattern Recognition (CVPR)",
     "year": 2022,
-    "notes": "Oral"
+    "notes": "CVPR Oral"
   },
   {
     "title": "TnT Attacks! Universal Naturalistic Adversarial Patches Against Deep Neural Network Systems",
