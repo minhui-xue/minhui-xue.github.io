@@ -1,6 +1,55 @@
 /* Publications data source-of-truth (edit this file). */
 window.PUBLICATIONS = [
   {
+    "title": "Catch-Only-One: Non-Transferable Examples for Model-Specific Authorization",
+    "authors": "Zihan Wang, Ethan Ma, Zhongkui Ma, Shuofeng Liu, Akide Liu, Derui Wang, Minhui Xue, Guangdong Bai",
+    "venue": "Conference on Neural Information Processing Systems (NeurIPS)",
+    "year": 2026,
+    "notes": "Oral"
+  },
+  {
+    "title": "TRACE: Data-Free Text Reconstruction Attacks against Approximate Unlearning in LLMs",
+    "authors": "Mengying Zhang, Derui Wang, Ibrahim Khalil, Bowen Liu, Xiaoyu Xia, Minhui Xue",
+    "venue": "Conference on Neural Information Processing Systems (NeurIPS)",
+    "year": 2026
+  },
+  {
+    "title": "Who Watches the Watchers? Semantically-Constrained Reinforcement Learning for Red-Teaming Provenance Intrusion Detectors",
+    "authors": "Brayden Killeen, Derui Wang, Nasrin Sohrabi, Qin Wang, Zahir Tari, Minhui Xue",
+    "venue": "Conference on Neural Information Processing Systems (NeurIPS)",
+    "year": 2026
+  },
+  {
+    "title": "MaskForge: Structure-Aware Adaptive Attacks for Jailbreaking Diffusion Large Language Models",
+    "authors": "Yingzi Ma, Zhengyue Zhao, Xiaogeng Liu, Minhui Xue, Yue Zhao, Chaowei Xiao",
+    "venue": "Conference on Neural Information Processing Systems (NeurIPS)",
+    "year": 2026
+  },
+  {
+    "title": "Invisible Ink, Visible Lies: How Production Watermarking Causes LLMs to Hallucinate",
+    "authors": "Haocheng Ye, Aoting Hu, Xinwei Zhang, Xunzhu Tang, Shuchao Pang, Minhui Xue",
+    "venue": "Conference on Neural Information Processing Systems (NeurIPS)",
+    "year": 2026
+  },
+  {
+    "title": "CAST: Certifiable Aggregation of Smoothed Teachers for Robust Policy Adaptation",
+    "authors": "Zhongrui Zhao, Yanan Cai, Zhigang Lu, Longkun Guo, Ickjai Lee, Shuchao Pang, Minhui Xue",
+    "venue": "Conference on Neural Information Processing Systems (NeurIPS)",
+    "year": 2026
+  },
+  {
+    "title": "ChainForge: Tool-Chain Hijacking Attacks against LLM Agents via Execution-Grounded Tool Synthesis",
+    "authors": "Jiluan Fan, Haotian Zhu, Zhigang Lu, Junhao Xia, Xunzhu Tang, Shuchao Pang, Minhui Xue",
+    "venue": "Conference on Neural Information Processing Systems (NeurIPS)",
+    "year": 2026
+  },
+  {
+    "title": "DualSteer: Dual-Space Steering for Robust Jailbreak Mitigation of Large Vision Language Models",
+    "authors": "Haotian Zhu, Shuchao Pang, Zhigang Lu, Jiluan Fan, Fanzhen Liu, Xu Zheng, Xunzhu Tang, Minhui Xue",
+    "venue": "Conference on Neural Information Processing Systems (NeurIPS)",
+    "year": 2026
+  },
+  {
     "title": "AI Alignment through a Game-theoretic Lens: A Survey",
     "authors": "Yanan Cai, Zhongrui Zhao, Zhigang Lu, Ickjai Lee, Wei Emma Zhang, Minhui Xue, Yihong Zhang, Shuchao Pang, Wei Xiang",
     "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP Main Conference)",
