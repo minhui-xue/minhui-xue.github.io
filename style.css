@@ -16,6 +16,9 @@
   --award-text: #7a0c0c;
   --award-bg: #ffecec;
   --award-border: #f3b5b5;
+  --oral-text: #0f3b4a;
+  --oral-bg: #e6f1f4;
+  --oral-border: #a9ccd6;
 }
 
 * {
@@ -377,11 +380,30 @@ ol {
   top: -1px;
 }
 
+.pub-notes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 4px 0 3px;
+}
+
+.pub-notes .pub-note {
+  margin-left: 0;
+  top: 0;
+}
+
 .pub-note-award {
   color: var(--award-text);
   background: var(--award-bg);
   border-color: var(--award-border);
   box-shadow: 0 1px 0 rgba(122, 12, 12, 0.08);
+}
+
+.pub-note-oral {
+  color: var(--oral-text);
+  background: var(--oral-bg);
+  border-color: var(--oral-border);
+  box-shadow: 0 1px 0 rgba(15, 59, 74, 0.08);
 }
 
 .small {

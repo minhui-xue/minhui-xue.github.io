@@ -8,17 +8,28 @@
       .replaceAll("'", "&#39;");
   }
 
+  function noteClass(note) {
+    const normalized = note.toLowerCase();
+    if (normalized.includes("award")) return "pub-note pub-note-award";
+    if (normalized.includes("oral")) return "pub-note pub-note-oral";
+    return "pub-note";
+  }
+
   function renderPublicationLi(publication) {
     const title = escapeHtml(publication.title);
     const authors = escapeHtml(publication.authors);
     const venue = escapeHtml(publication.venue);
     const year = Number(publication.year);
     const notes = [].concat(publication.notes || []).map(String).filter(Boolean);
-    const badge = notes.map((note) => ` <span class="pub-note pub-note-award">${escapeHtml(note)}</span>`).join("");
+    const badges = notes.length
+      ? `<div class="pub-notes">${notes
+          .map((note) => `<span class="${noteClass(note)}">${escapeHtml(note)}</span>`)
+          .join("")}</div>`
+      : "<br />";
 
     return (
       `<li>` +
-      `<strong>${title}</strong>${badge}<br />` +
+      `<strong>${title}</strong>${badges}` +
       `${authors}<br />` +
       `<em>${venue}</em>, ${year}.` +
       `</li>`
