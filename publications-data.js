@@ -5,7 +5,7 @@ window.PUBLICATIONS = [
     "authors": "Zihan Wang, Ethan Ma, Zhongkui Ma, Shuofeng Liu, Akide Liu, Derui Wang, Minhui Xue, Guangdong Bai",
     "venue": "Conference on Neural Information Processing Systems (NeurIPS)",
     "year": 2026,
-    "notes": "Oral"
+    "notes": "Best Paper Award Runner-Up (ECCV 2026 LifeGenIP)"
   },
   {
     "title": "TRACE: Data-Free Text Reconstruction Attacks against Approximate Unlearning in LLMs",
