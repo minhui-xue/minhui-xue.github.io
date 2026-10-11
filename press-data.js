@@ -1,6 +1,36 @@
 /* Press data source-of-truth (edit this file). */
 window.PRESS_ITEMS = [
   {
+    "title": "New report explores safe oversight of advanced AI systems",
+    "outlet": "Department of Industry, Science and Resources/Australian AI Safety Institute",
+    "url": "https://www.industry.gov.au/news/new-report-explores-safe-oversight-advanced-ai-systems",
+    "year": 2026,
+    "month": 10,
+    "dateLabel": "Oct 2026",
+    "sidebar": true,
+    "timeline": true
+  },
+  {
+    "title": "Scalable AI Oversight: Looking beyond correct answers",
+    "outlet": "CSIRO News",
+    "url": "https://www.csiro.au/en/research/technology-space/ai/scalable-ai-oversight",
+    "year": 2026,
+    "month": 10,
+    "dateLabel": "Oct 2026",
+    "sidebar": true,
+    "timeline": true
+  },
+  {
+    "title": "Checks miss AI ‘manipulation’, safety institute says",
+    "outlet": "InnovationAus",
+    "url": "https://www.innovationaus.com/checks-miss-ai-manipulation-safety-institute-says/",
+    "year": 2026,
+    "month": 10,
+    "dateLabel": "Oct 2026",
+    "sidebar": true,
+    "timeline": true
+  },
+  {
     "title": "AI is trained on your images and websites, but there are evolving ways to block it",
     "outlet": "ABC News",
     "url": "https://www.abc.net.au/news/science/2025-10-30/blocking-ais-from-training-on-your-content/105937872",
